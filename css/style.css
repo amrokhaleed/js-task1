@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.products li {
+    background-color: #e4e4e4;
+    padding: 10px;
+    margin: 30px;
+    text-align: center;
+}
+
+#clickedProducts {
+    margin: auto;
+    width: fit-content;
+    padding: 20px;
+    background-color: #606093;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+#showPrice {
+    padding: 10px 20px;
+    margin-left: 45.7%;
+    margin-top: 50px;
+    color: white;
+    border-radius: 5px;
+    background-color: green;
+    border: none;
+    opacity: 0;
+    transition: opacity 1s ease;
+    -webkit-transition: opacity 1s ease;
+    -moz-transition: opacity 1s ease;
+    -ms-transition: opacity 1s ease;
+    -o-transition: opacity 1s ease;
+}
+
+#totalPrice {
+    text-align: center;
+    background-color: #128023;
+    width: fit-content;
+    margin: auto;
+    margin-top: 25px;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity 1s ease;
+    -webkit-transition: opacity 1s ease;
+    -moz-transition: opacity 1s ease;
+    -ms-transition: opacity 1s ease;
+    -o-transition: opacity 1s ease;
+}
